@@ -1,19 +1,38 @@
-# React + Vite
+# Gate Check-In Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web portal for event gate operators to verify families and record check-ins.
 
-Currently, two official plugins are available:
+## Context
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Used for family verification and attendance lookup at events.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Operator login with session token
+- Event and gate selection (required before check-in)
+- Household lookup and family verification
+- Check-in page
+- Dashboard and audit log pages
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# CheckIn-Status
+- **Frontend:** React, Vite, React Router
+- **Server:** Express static server (Procfile for deployment)
 
-GBC Check In Status — family verification and attendance lookup portal.
+## Getting started
+
+```bash
+npm install
+cp .env.example .env
+npm run dev
+# production
+npm run build && npm start
+```
+
+## Screenshots
+
+<!-- Add 2-3 screenshots here: docs/screenshots/*.png -->
+
+## Author
+
+Built by **Altaf Hassan**, Software Engineer (React Native & full-stack). [Portfolio](https://altaf94-portfolio.netlify.app) · [LinkedIn](https://linkedin.com/in/altaf-hassan)
