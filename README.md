@@ -29,10 +29,6 @@ npm run dev
 npm run build && npm start
 ```
 
-## Screenshots
-
-<!-- Add 2-3 screenshots here: docs/screenshots/*.png -->
-
 ## Author
 
 Built by **Altaf Hassan**, Software Engineer (React Native & full-stack). [Portfolio](https://altaf94-portfolio.netlify.app) · [LinkedIn](https://linkedin.com/in/altaf-hassan)
